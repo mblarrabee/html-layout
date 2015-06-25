@@ -1,0 +1,39 @@
+html, body{
+	background-color: #dddddd;
+}
+#mainbox{
+	height: 600px;
+	width: 600px;
+	margin:30px 0 0 30%;
+	border:solid black 1px;
+}
+.stripe{
+	height:100%;
+	width:200px;
+	float:left;
+	margin:0;
+}
+#left{
+	background-color: dodgerblue;
+}
+#middle{
+	background-color: darkturquoise;
+
+}
+#right{
+	background-color: springgreen;
+	position: relative;
+}
+#placeholder{
+	background-color:red;
+	width:200px;
+	height:150px;
+	float:left;
+	color:white;
+	position:absolute;
+	bottom:0;
+	text-align: center;
+	font-family:arial;
+	font-size:18px;
+
+}
